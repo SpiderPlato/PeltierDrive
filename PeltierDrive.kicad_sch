@@ -1691,6 +1691,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AP2127N-2.8"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP2127N-2.8"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 2.8V fixed positive output, SOT-23 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2127N-2.8_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2127N-2.8_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:AOZ1284PI"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1935,6 +2076,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+2V8"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+2V8"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+2V8\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+2V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+2V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2163,10 +2429,22 @@
 		)
 	)
 	(junction
+		(at 78.74 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0318243a-032d-4cf0-8ef5-798d39114f54")
+	)
+	(junction
 		(at 168.91 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0497bdb6-b6d3-4f8e-ae94-fc06a8648ad0")
+	)
+	(junction
+		(at 224.79 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a93d279-dd1c-4ca7-ae5a-cd75a0606ad7")
 	)
 	(junction
 		(at 187.96 109.22)
@@ -2211,6 +2489,12 @@
 		(uuid "5cd9a120-9e12-4b2c-8c97-43dc5fa18545")
 	)
 	(junction
+		(at 111.76 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62556dd6-003f-4409-bdfb-9be7c737cbff")
+	)
+	(junction
 		(at 152.4 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2233,6 +2517,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e285f30-c087-439d-8645-2a851162cee2")
+	)
+	(junction
+		(at 115.57 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e473f7-780d-40e2-8b0b-fd4d2b020200")
 	)
 	(junction
 		(at 245.11 100.33)
@@ -2259,10 +2549,22 @@
 		(uuid "c9f169e3-f570-4487-b472-f4b941c3096a")
 	)
 	(junction
+		(at 50.8 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1613e80-438a-4bb7-8a7a-9848b16c8059")
+	)
+	(junction
 		(at 162.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5116c0e-fdad-4962-8a13-1bcf4fa2abc9")
+	)
+	(junction
+		(at 224.79 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ae3c9d-278e-44a2-a113-eaaacf86fb3f")
 	)
 	(wire
 		(pts
@@ -2283,6 +2585,16 @@
 			(type default)
 		)
 		(uuid "04c81df4-ada3-42e6-8781-2df9be76863d")
+	)
+	(wire
+		(pts
+			(xy 57.15 62.23) (xy 57.15 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069f5588-06da-47ef-94e2-d96c781f9783")
 	)
 	(wire
 		(pts
@@ -2486,6 +2798,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 156.21) (xy 111.76 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a005d9-8da0-407a-a749-703eb7c06503")
+	)
+	(wire
+		(pts
 			(xy 48.26 179.07) (xy 53.34 179.07)
 		)
 		(stroke
@@ -2506,6 +2828,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 59.69) (xy 50.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a450f0-6f1e-4a13-ad51-0a2aad1cdbc1")
+	)
+	(wire
+		(pts
 			(xy 48.26 176.53) (xy 52.07 176.53)
 		)
 		(stroke
@@ -2523,6 +2855,16 @@
 			(type default)
 		)
 		(uuid "342a8e10-6ecf-4cbd-a450-fd07d4d5f265")
+	)
+	(wire
+		(pts
+			(xy 57.15 59.69) (xy 50.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3660609c-4e6c-4c17-95aa-2580a82e6192")
 	)
 	(wire
 		(pts
@@ -2593,6 +2935,16 @@
 			(type default)
 		)
 		(uuid "499e1202-6796-4c77-aa8c-8a4ebc77b616")
+	)
+	(wire
+		(pts
+			(xy 115.57 156.21) (xy 115.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49baf70e-830c-4ce0-969c-722d798017c8")
 	)
 	(wire
 		(pts
@@ -2796,6 +3148,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 60.96) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773abc22-e04c-4242-af87-cd6946a96df7")
+	)
+	(wire
+		(pts
 			(xy 204.47 109.22) (xy 204.47 111.76)
 		)
 		(stroke
@@ -2806,6 +3168,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 173.99) (xy 119.38 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3e3582-619d-4dbf-a41d-6bda86a8be0f")
+	)
+	(wire
+		(pts
 			(xy 93.98 146.05) (xy 93.98 142.24)
 		)
 		(stroke
@@ -2813,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "7da5969d-45a3-4140-ab5e-cd2dfa8a4ccf")
+	)
+	(wire
+		(pts
+			(xy 115.57 165.1) (xy 115.57 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da6cd11-1ce3-41c4-a76e-9dd5c4090b9b")
 	)
 	(wire
 		(pts
@@ -2916,7 +3298,37 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 176.53) (xy 119.38 176.53)
+			(xy 78.74 69.85) (xy 78.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acce4613-709c-48d3-b693-b07f60e29679")
+	)
+	(wire
+		(pts
+			(xy 58.42 62.23) (xy 57.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade5d836-a82e-481e-adb0-190c987a1702")
+	)
+	(wire
+		(pts
+			(xy 78.74 60.96) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af202e2c-0667-440e-8136-25a91efd9666")
+	)
+	(wire
+		(pts
+			(xy 109.22 176.53) (xy 115.57 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 187.96) (xy 77.47 189.23)
+			(xy 50.8 68.58) (xy 50.8 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2993,6 +3405,16 @@
 			(type default)
 		)
 		(uuid "c816b088-1a9b-40f6-b7f6-ef89556cfe58")
+	)
+	(wire
+		(pts
+			(xy 50.8 59.69) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7b740d-443c-4aa5-bee1-8bf3a233d104")
 	)
 	(wire
 		(pts
@@ -3023,6 +3445,16 @@
 			(type default)
 		)
 		(uuid "d6598f23-734d-4f80-838c-4f440d3f8208")
+	)
+	(wire
+		(pts
+			(xy 111.76 165.1) (xy 111.76 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6793577-ae7e-4826-b3fb-ab94e11b238d")
 	)
 	(wire
 		(pts
@@ -3116,6 +3548,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 176.53) (xy 119.38 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85810b1-39f8-4cb2-99d0-526a44fd9430")
+	)
+	(wire
+		(pts
 			(xy 187.96 109.22) (xy 187.96 111.76)
 		)
 		(stroke
@@ -3123,6 +3565,16 @@
 			(type default)
 		)
 		(uuid "e8db15cd-d4d7-4023-8936-7f36bc3b8ca0")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 73.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9142d9b-7a23-41d5-a7b5-84a3e5e7406e")
 	)
 	(wire
 		(pts
@@ -3176,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 173.99) (xy 119.38 173.99)
+			(xy 109.22 173.99) (xy 111.76 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3193,6 +3645,16 @@
 			(type default)
 		)
 		(uuid "f7766a37-7d84-4be6-a132-7531d1c23d3a")
+	)
+	(wire
+		(pts
+			(xy 49.53 55.88) (xy 49.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa4ae5f-90d2-4c89-9404-850f0381eb8f")
 	)
 	(image
 		(at 214.63 62.23)
@@ -4325,7 +4787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 225.7552 109.22 0)
 			(effects
 				(font
@@ -4465,7 +4927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
 			(at 267.97 142.24 0)
 			(effects
 				(font
@@ -4667,7 +5129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
 			(at 260.35 100.33 0)
 			(effects
 				(font
@@ -4704,6 +5166,75 @@
 			(project "PeltierDrive"
 				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a7611ae-79aa-4016-951e-89eea2c28287")
+		(property "Reference" "R11"
+			(at 109.474 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3K3"
+			(at 112.014 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 109.982 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc3fcf04-f9ba-496c-9c85-3cfa058127b6")
+		)
+		(pin "1"
+			(uuid "986e02d7-547d-4d13-b5e9-51fd12545a93")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4777,7 +5308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 189.23 0)
+		(at 50.8 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4786,7 +5317,7 @@
 		(fields_autoplaced yes)
 		(uuid "278e3850-c54a-413f-bc5e-1eba3dde3090")
 		(property "Reference" "#PWR032"
-			(at 77.47 195.58 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +5326,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 194.31 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +5334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 189.23 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 189.23 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +5352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 189.23 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 121.6152 110.49 0)
 			(effects
 				(font
@@ -5075,7 +5606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 248.6152 157.48 0)
 			(effects
 				(font
@@ -5345,7 +5876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 84.7852 125.73 0)
 			(effects
 				(font
@@ -5382,6 +5913,72 @@
 			(project ""
 				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 78.74 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4751bc9d-3111-4a0b-ab54-21bada2b03d4")
+		(property "Reference" "#PWR036"
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V8"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a380ff8-38c7-40f0-aa88-8d1e0727f4f9")
+		)
+		(instances
+			(project ""
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5458,6 +6055,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 78.74 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49cd0bc4-c0c9-464c-9a31-c650822f4c2f")
+		(property "Reference" "C16"
+			(at 82.55 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 82.55 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 79.7052 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f753603d-1474-4a41-aea1-26667941ceb6")
+		)
+		(pin "1"
+			(uuid "1647a466-41e6-493a-911d-c91a5872f52d")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 128.27 0)
 		(unit 1)
@@ -5518,6 +6185,75 @@
 			(project "PeltierDrive"
 				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50f8b9fc-ea5b-418a-aea8-096903a0e6f8")
+		(property "Reference" "R12"
+			(at 113.284 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3K3"
+			(at 115.824 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 113.792 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0075669e-ec82-4722-8170-c06c37dfce19")
+		)
+		(pin "1"
+			(uuid "2cec08c4-6093-4d23-9016-3cacbef47a27")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5754,7 +6490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 205.4352 109.22 0)
 			(effects
 				(font
@@ -5894,7 +6630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 64.4652 125.73 0)
 			(effects
 				(font
@@ -6122,7 +6858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 153.3652 97.79 0)
 			(effects
 				(font
@@ -6347,7 +7083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 74.6252 125.73 0)
 			(effects
 				(font
@@ -6586,6 +7322,72 @@
 			(project ""
 				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 252.73 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b8d194f-d34b-4fb4-b323-e326798320d9")
+		(property "Reference" "#PWR026"
+			(at 252.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V8"
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3421874-24e5-4521-87f6-4ebe7fd81f4d")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6891,7 +7693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 159.7152 181.61 0)
 			(effects
 				(font
@@ -6961,7 +7763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 183.8452 154.94 0)
 			(effects
 				(font
@@ -6998,6 +7800,72 @@
 			(project "PeltierDrive"
 				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9554898d-8a6c-47a7-a356-d54ef7d782ba")
+		(property "Reference" "#PWR037"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1425779-5cad-4735-b28f-6687e6e5d6d2")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7202,72 +8070,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 252.73 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa60a4cb-2713-400c-a7ea-64be0b59539a")
-		(property "Reference" "#PWR026"
-			(at 252.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 252.73 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 252.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c544513-b190-48ba-8238-c23907e4628f")
-		)
-		(instances
-			(project "PeltierDrive"
-				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 127 0)
 		(unit 1)
@@ -7335,16 +8137,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 184.15 0)
+		(at 50.8 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac563614-a6dd-400f-b02c-22a7fc63d2b6")
 		(property "Reference" "C13"
-			(at 81.28 182.8799 0)
+			(at 54.61 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +8154,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 81.28 185.4199 0)
+			(at 54.61 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7361,8 +8162,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 78.4352 187.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 51.7652 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +8172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 184.15 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +8181,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 184.15 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,6 +8265,78 @@
 			(project "PeltierDrive"
 				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2127N-2.8")
+		(at 66.04 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0530466-c698-454f-ba30-37f334e783e8")
+		(property "Reference" "U3"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2127N-2.8"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 66.04 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 2.8V fixed positive output, SOT-23 package"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0a01b783-2b55-4023-a6e2-1cc75e76c0dd")
+		)
+		(pin "1"
+			(uuid "f99f0216-a035-497e-b9b4-5595e62c5624")
+		)
+		(pin "2"
+			(uuid "d4d57444-9258-49c6-a013-9bf2996de284")
+		)
+		(instances
+			(project ""
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7617,7 +8490,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 77.47 180.34 0)
+		(at 49.53 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7626,7 +8499,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4a1771d-1d25-4e73-9da4-a73a3f190b34")
 		(property "Reference" "#PWR031"
-			(at 77.47 184.15 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +8508,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 77.47 175.26 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +8516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 180.34 0)
+			(at 49.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +8525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 180.34 0)
+			(at 49.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +8534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 77.47 180.34 0)
+			(at 49.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,6 +8549,76 @@
 			(project "PeltierDrive"
 				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5794b50-42f7-4b48-b1b6-0dffb24c0d34")
+		(property "Reference" "C15"
+			(at 228.6 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 228.6 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 225.7552 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 224.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfeb6190-3a85-467d-9358-504b8c88911f")
+		)
+		(pin "1"
+			(uuid "6b14f5d2-06d9-4a0d-9789-8c54319eac2d")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7709,7 +8652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 215.5952 109.22 0)
 			(effects
 				(font
@@ -7882,6 +8825,72 @@
 			(project "PeltierDrive"
 				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2b61795-1026-420f-9866-3fe2a43c5c05")
+		(property "Reference" "#PWR034"
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfbc5adb-3a87-40d8-9e47-c9016064eb58")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8086,6 +9095,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 115.57 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d0fa4d-87c4-4563-9623-0fee23c780b9")
+		(property "Reference" "#PWR035"
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60bef419-e0c8-4c27-94a8-42ceea16c346")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 85.09 184.15 0)
 		(unit 1)
@@ -8113,7 +9188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 86.0552 187.96 0)
 			(effects
 				(font
@@ -8156,6 +9231,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e318a207-d66d-45e8-9145-a76e8eee6790")
+		(property "Reference" "#PWR038"
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8514ae0-85b1-417e-af9e-956e80b44d14")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 39.37 95.25 180)
 		(unit 1)
@@ -8182,7 +9323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
 			(at 39.37 95.25 0)
 			(effects
 				(font
@@ -8448,7 +9589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
 			(at 43.18 173.99 0)
 			(effects
 				(font
@@ -8732,7 +9873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 103.8352 111.76 0)
 			(effects
 				(font
@@ -8800,7 +9941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 173.99 97.79 0)
 			(effects
 				(font
