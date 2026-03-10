@@ -2789,6 +2789,18 @@
 		(uuid "e5116c0e-fdad-4962-8a13-1bcf4fa2abc9")
 	)
 	(junction
+		(at 241.3 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b9bc6c-aad0-484e-a659-455698158ca4")
+	)
+	(junction
+		(at 241.3 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f03d58d1-e634-48de-a220-be1509e3f7ee")
+	)
+	(junction
 		(at 224.79 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3056,6 +3068,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 100.33) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f459d2-e568-4a7d-8d86-f7bf97fe374e")
+	)
+	(wire
+		(pts
 			(xy 111.76 156.21) (xy 111.76 157.48)
 		)
 		(stroke
@@ -3263,6 +3285,16 @@
 			(type default)
 		)
 		(uuid "4e5c2a81-2605-4c64-a372-aaa6e0262b4a")
+	)
+	(wire
+		(pts
+			(xy 241.3 100.33) (xy 245.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5070f01e-6ef6-4639-8f65-83ff248a5218")
 	)
 	(wire
 		(pts
@@ -3776,6 +3808,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 109.22) (xy 241.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fa2e9f-b3fd-4d88-9c73-0c1c678f9450")
+	)
+	(wire
+		(pts
 			(xy 50.8 68.58) (xy 50.8 69.85)
 		)
 		(stroke
@@ -3896,7 +3938,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 100.33) (xy 245.11 100.33)
+			(xy 238.76 100.33) (xy 241.3 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5971,7 +6013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "27k"
 			(at 190.5 101.6001 0)
 			(effects
 				(font
@@ -6378,12 +6420,13 @@
 				)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "PMEG4050CEPX"
 			(at 53.6575 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
@@ -6395,7 +6438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://www.digikey.nl/en/products/detail/nexperia-usa-inc/PMEG4050CEPX/26266246"
 			(at 53.34 92.71 0)
 			(effects
 				(font
@@ -6404,7 +6447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
+		(property "Description" "40V 5A Schottky Diode, SMA (SOD-128/CFP5)"
 			(at 53.34 92.71 0)
 			(effects
 				(font
@@ -7473,7 +7516,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01R"
+		(property "Value" "0.02R"
 			(at 247.65 109.2199 0)
 			(effects
 				(font
@@ -7640,7 +7683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 153.3652 97.79 0)
 			(effects
 				(font
@@ -8129,13 +8172,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "PMEG4050CEPX"
 			(at 165.1 102.5524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
@@ -8147,7 +8191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://www.digikey.nl/en/products/detail/nexperia-usa-inc/PMEG4050CEPX/26266246"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -8156,7 +8200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
+		(property "Description" "40V 5A Schottky Diode, SMA (SOD-128/CFP5)"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -10220,6 +10264,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 241.3 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4627d6c-a34d-4b4c-80b4-dbdc895c8e31")
+		(property "Reference" "C19"
+			(at 245.11 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 245.11 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 242.2652 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 241.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d737da4-f461-44e7-a66a-93cc2f3c6dee")
+		)
+		(pin "1"
+			(uuid "48793c14-509b-4e39-b636-6fbb0abf3d00")
+		)
+		(instances
+			(project "PeltierDrive"
+				(path "/e47fbdb3-9567-4c4b-b53e-aa89db06e06a"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 39.37 95.25 180)
 		(unit 1)
@@ -10873,7 +10987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/68e226b9b1c2983a3b0686929d941e18/PCS.pdf"
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -10882,7 +10996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "PCS129MT220"
 			(at 173.99 97.79 0)
 			(effects
 				(font
