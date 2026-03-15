@@ -1,0 +1,3 @@
+[submodule "FW-peltierDrive/MCP342x_LoPy"]
+	path = FW-peltierDrive/MCP342x_LoPy
+	url = https://github.com/jajberni/MCP342x_LoPy.git
