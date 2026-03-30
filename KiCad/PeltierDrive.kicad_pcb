@@ -3096,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "10K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0274de74-590c-4c3d-849d-e6be067e48d0")
@@ -4091,7 +4091,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "20k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "900be34f-96dd-40eb-8d0d-96af91cad08c")
@@ -4554,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "68k"
 			(at 0.5 0.43 90)
 			(layer "F.Fab")
 			(uuid "37f92cb7-ab5a-41d3-8848-c7ff05f51c2d")
@@ -4753,7 +4753,7 @@
 				)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "PMEG3050CEP"
 			(at -1.3 1.43 90)
 			(layer "F.Fab")
 			(uuid "de23abab-3354-4fae-8e9a-0142523bdf8d")
@@ -4764,7 +4764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://www.digikey.nl/en/products/detail/nexperia-usa-inc/PMEG4050CEPX/26266246"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4777,7 +4777,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
+		(property "Description" "40V 5A Schottky Diode, SMA (SOD-128/CFP5)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5962,7 +5962,7 @@
 				)
 			)
 		)
-		(property "Value" "AP2127N-2.8"
+		(property "Value" "TPS7A528PDBZR"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "c7f98ffb-7d60-4d0f-a57d-fcc4f9d1ed22")
@@ -6486,7 +6486,7 @@
 				)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "10K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8f015a2d-c7f4-4dd5-8777-ef08556c4f7f")
@@ -8077,7 +8077,7 @@
 				)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "PMEG3050CEP"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "87be3ab7-92b3-4492-aa1d-3521b7a6f594")
@@ -8088,7 +8088,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://www.digikey.nl/en/products/detail/nexperia-usa-inc/PMEG4050CEPX/26266246"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8101,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
+		(property "Description" "40V 5A Schottky Diode, SMA (SOD-128/CFP5)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8549,7 +8549,7 @@
 				)
 			)
 		)
-		(property "Value" "0.01R"
+		(property "Value" "0.02R"
 			(at 0 1 0)
 			(layer "F.Fab")
 			(uuid "4c1bf245-68d8-4bc6-b1d7-69caadf469ee")
@@ -11234,7 +11234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/68e226b9b1c2983a3b0686929d941e18/PCS.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11247,7 +11247,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "PCS129MT220"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

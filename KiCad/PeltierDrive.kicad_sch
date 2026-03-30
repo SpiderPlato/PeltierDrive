@@ -5811,7 +5811,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "10K"
 			(at 112.014 163.068 90)
 			(effects
 				(font
@@ -6013,7 +6013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "68k"
 			(at 190.5 101.6001 0)
 			(effects
 				(font
@@ -6138,10 +6138,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3bc1d1b2-9450-43f7-8321-19bf0d784cd4")
 		(property "Reference" "C5"
-			(at 124.46 105.4099 0)
+			(at 114.554 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6149,7 @@
 			)
 		)
 		(property "Value" "2.2n"
-			(at 124.46 107.9499 0)
+			(at 114.554 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6419,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4050CEPX"
+		(property "Value" "PMEG3050CEP"
 			(at 53.6575 88.9 0)
 			(effects
 				(font
@@ -6959,7 +6958,7 @@
 		(dnp no)
 		(uuid "50f8b9fc-ea5b-418a-aea8-096903a0e6f8")
 		(property "Reference" "R12"
-			(at 113.284 163.068 90)
+			(at 117.856 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +6966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "10K"
 			(at 115.824 163.068 90)
 			(effects
 				(font
@@ -7310,7 +7309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "20k"
 			(at 255.27 139.6999 0)
 			(effects
 				(font
@@ -8172,7 +8171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG4050CEPX"
+		(property "Value" "PMEG3050CEP"
 			(at 165.1 102.5524 90)
 			(effects
 				(font
@@ -10271,7 +10270,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4627d6c-a34d-4b4c-80b4-dbdc895c8e31")
 		(property "Reference" "C19"
 			(at 245.11 104.1399 0)
@@ -10283,7 +10281,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 245.11 106.6799 0)
+			(at 236.728 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
